@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Poppins&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    background: radial-gradient(ellipse 100% 100% at 100% 100%, rgb(251, 84, 43) 0%, rgb(169, 27, 120) 46%, rgb(57, 45, 209) 100%);
+    color: #fff;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 30px auto;
+}
+
+.wrapper_medium {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > img {
+    height: 35px;
+}
+
+nav {
+    font-family: Muli, sans-serif;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li > a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+nav ul li ul {
+    display: none;
+}
+
+a {
+    color: #fff;
+}
+
+main section h1 {
+    font-size: 70px;
+}
+
+main .light_text {
+    font-family: Muli, sans-serif;
+    font-weight: 100;
+    width: 50%;
+    line-height: 35px;
+}
+
+.download_button {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: #FB542B;
+    padding: 20px 70px;
+    border-radius: 50px;
+}
