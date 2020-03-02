@@ -72,3 +72,16 @@ main .light_text {
     padding: 20px 70px;
     border-radius: 50px;
 }
+
+/*Cas des flexbox*/
+.dropdown-item{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*cas margin*/
+.svg{
+    vertical-align: middle;
+}
